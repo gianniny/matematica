@@ -23,4 +23,14 @@ body{
 
 .container {
     heigt: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__botão{
+    background-color: var(--botão-azul);
+    border-radius: Spx;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
 }
